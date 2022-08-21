@@ -67,3 +67,16 @@ h2{
     margin-bottom: 10px;
     transition: 0.25s ease;
 }
+
+.card-2{
+    background-color: var(--background-primary);
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0 ,0 , 0.2);
+    padding: 20px;
+    height: 12rem;
+    margin-left: 26px;
+    width: 20rem;
+    margin-bottom: 10px;
+    transition: 0.25s ease;
+}
