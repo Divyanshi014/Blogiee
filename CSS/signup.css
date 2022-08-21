@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Varta:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varta', sans-serif;
+}
+
+
+body{
+    color:#fff;
+    background-image: url(/Images/wallpaperflare.com_wallpaper.jpg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+
+
+}
+
+.main_div{
+    height: 100vh;
+}
+
+.das{
+    margin-left: 121vh;
+}
+.card{
+    border: none;
+    border-radius:10px;
+    border-top: 5px solid rgb( 176 106 252);
+    background-color: rgba(255, 255, 255 , 0.8);
+    color: #57557a;
+    z-index: 9999;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fab{
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition:  all 0.2s linear;
+
+}
+
+.fab:hover{
+    cursor: pointer;
+    background: #aaafff;
+
+}
+
+.fa-twitter{
+    color:#56ABEC;
+}
+
+.fa-facebook{
+    color:#1775F1;
+}
+
+.fa-instagram{
+    color:#fe4164;
+}
+
+ .division .main-heading{
+    width: 100%;
+    text-align: center;
+    margin:30px 83px 2px;
+}
+
+.division span{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.my-form{
+    padding:0 25px 0 35px;
+}
+
+.form-control{
+    border: 1px solid #57557a;
+    border-radius: 2px;
+    background:#2f6a84;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.form-control:focus{
+    border: 1px solid #57557a;
+    border-radius: 5px;
+    box-shadow: none;
+    background:#212042;
+    /* margin-bottom: 20px; */
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+
+
+
+.bn:hover{
+    cursor: pointer;
+}
+
+.form-check-input{
+     width: 1rem !important;
+     height: 1rem !important;
+     /* margin-top: 5px; */
+}
+
+.line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary{
+    
+    border:none;
+    border-radius:50px;
+    background-color: #2f6a84;
+}
+
+.btn-primary:hover{
+    background:#212042;
+}
+
+.small{
+    color:#f2ceff;
+}
+
+.registration{
+    margin-left: 361px;
+    margin-bottom: -16px;
+}
+
+
+.Register {
+    
+    color:#212042 ;
+    text-decoration: none;
+}
+
+canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
