@@ -1,52 +1,53 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Varta:wght@300&display=swap');
 
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Varta', sans-serif;
 }
 
 
-body{
-    color:#fff;
-    background-image: url(/Images/wallpaperflare.com_wallpaper.jpg);
-    -webkit-background-size:cover;
+body {
+    color: #fff;
+    background-image: url(/Images/signup-2.jpg);
+    -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     height: 100vh;
     position: relative;
+    overflow: hidden;
 
 
 }
 
-.main_div{
+.main_div {
     height: 100vh;
 }
 
-.das{
+.das {
     margin-left: 121vh;
 }
-.card{
+
+.card {
     border: none;
-    border-radius:10px;
-    border-top: 5px solid rgb( 176 106 252);
-    background-color: rgba(255, 255, 255 , 0.8);
+    border-radius: 10px;
+    border-top: 5px solid rgb(176 106 252);
+    background-color: rgba(255, 255, 255, 0.8);
     color: #57557a;
     z-index: 9999;
 }
 
-p{
+p {
     font-size: 20px;
     font-weight: 500;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.fab{
+.fab {
     display: flex;
     border: none;
     justify-content: center;
@@ -55,56 +56,60 @@ a{
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    transition:  all 0.2s linear;
+    transition: all 0.2s linear;
 
 }
 
-.fab:hover{
+.fab:hover {
     cursor: pointer;
     background: #aaafff;
 
 }
 
-.fa-twitter{
-    color:#56ABEC;
+.fa-twitter {
+    color: #56ABEC;
 }
 
-.fa-facebook{
-    color:#1775F1;
+.fa-facebook {
+    color: #1775F1;
 }
 
-.fa-instagram{
-    color:#fe4164;
+.fa-instagram {
+    color: #fe4164;
 }
 
- .division .main-heading{
+.division .main-heading {
     width: 100%;
     text-align: center;
-    margin:30px 83px 2px;
+    margin: 30px 83px 2px;
 }
 
-.division span{
+.division span {
     font-weight: 500;
     font-size: 25px;
 }
 
-.my-form{
-    padding:0 25px 0 35px;
+.my-form {
+    padding: 0 25px 0 35px;
 }
 
-.form-control{
+.form-control {
     border: 1px solid #57557a;
     border-radius: 2px;
-    background:#2f6a84;
+    background: #2f6a84;
     margin-bottom: 20px;
     letter-spacing: 1px;
+    color: #fff;
+}
+.form-control input{
+ color: #fff;
 }
 
-.form-control:focus{
+.form-control:focus {
     border: 1px solid #57557a;
     border-radius: 5px;
     box-shadow: none;
-    background:#212042;
+    background: #212042;
     /* margin-bottom: 20px; */
     letter-spacing: 1px;
     color: #fff;
@@ -113,57 +118,82 @@ a{
 
 
 
-.bn:hover{
+.bn:hover {
     cursor: pointer;
 }
 
-.form-check-input{
-     width: 1rem !important;
-     height: 1rem !important;
-     /* margin-top: 5px; */
+.form-check-input {
+    width: 1rem !important;
+    height: 1rem !important;
+    /* margin-top: 5px; */
 }
 
-.line{
+.line {
     display: flex;
     justify-content: space-between;
 }
 
-.btn-primary{
-    
-    border:none;
-    border-radius:50px;
+.btn-primary {
+
+    border: none;
+    border-radius: 50px;
     background-color: #2f6a84;
 }
 
-.btn-primary:hover{
-    background:#212042;
+.btn-primary:hover {
+    background: #212042;
 }
 
-.small{
-    color:#f2ceff;
+.small {
+    color: #f2ceff;
 }
 
-.registration{
+.registration {
     margin-left: 361px;
     margin-bottom: -16px;
 }
 
 
 .Register {
-    
-    color:#212042 ;
+
+    color: #212042;
     text-decoration: none;
 }
 
-canvas{
+canvas {
     position: absolute;
     width: 100%;
     height: 100%;
-    top:0;
-    right:0;
+    top: 0;
+    right: 0;
     bottom: 0;
     left: 0;
     z-index: -1;
 
 }
+
+
+
+@media(max-width: 412px){
+    .card{
+        height: 100rem;
+        margin-top: 20rem;
+        width: 800px;
+         margin-right: 200vh;
+        align-self: center;
+        padding: 50px;
+        
+    }
+    
+
+    body{
+       
+        background-size: cover;
+        width: 100vh;
+
+    }
+}
+       
+       
+
 
